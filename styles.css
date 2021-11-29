@@ -1,0 +1,65 @@
+body {
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #000000;
+    color: blanchedalmond;
+}
+
+#nav p {
+    margin-top: 30px;
+}
+
+#nav p:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#today {
+    margin-top: 40px;
+    text-align: center;
+    width: 30%;
+    margin: 20px 0;
+    padding: 5%;
+    background-color: rgb(33, 34, 34);
+    border-radius: 10px;
+    color: white;
+}
+
+#today li {
+    text-align: left;
+}
+
+#yesterday, #tomorrow {
+    width: 10%;
+    margin: auto;
+}
+
+#yesterday button, #tomorrow button {
+    background-color: rgb(33, 34, 34);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: .9rem;
+}
+
+#yesterday button:hover, #tomorrow button:hover {
+    cursor: pointer;
+    background-color: rgb(48, 51, 51);
+}
+
+button p {
+    margin: 0;
+    font-size: large;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+}
